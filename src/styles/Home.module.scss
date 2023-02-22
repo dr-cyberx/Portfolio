@@ -1,3 +1,211 @@
+.root-container {
+  height: 100vh;
+  width: 100vw;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  .resume-container {
+    max-width: 1000px;
+    min-width: 1000px;
+    max-height: auto;
+    margin: auto;
+    border: 1px solid rgba(181, 181, 181, 0.512);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    padding-bottom: 4rem;
+
+    .image-intro-details-container {
+      width: 100%;
+      display: flex;
+      border-radius: 6px;
+      max-height: 258px;
+      min-height: 258px;
+      overflow: hidden;
+      background-color: rgb(75, 251, 186);
+
+      .profile_image_container {
+        flex: 1;
+        border: 1px solid rgb(202, 202, 202);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          margin-top: -26px;
+          height: 380px;
+          width: 280px;
+          margin-bottom: -96px;
+        }
+      }
+
+      .intro_detail_container {
+        flex: 3;
+        padding: 2rem;
+
+        .name-container {
+          h1 {
+            font-size: 3rem;
+            font-weight: 500;
+          }
+        }
+
+        .profile {
+          padding: 0.3rem;
+          p {
+            font-size: 1.3rem;
+          }
+        }
+
+        .address {
+          padding: 0.3rem;
+          margin-top: 3rem;
+        }
+        .contact-container {
+          padding: 0.3rem;
+          p {
+            a {
+              cursor: pointer;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+
+    .resume-body-container {
+      width: 100%;
+      display: flex;
+      margin-top: 2rem;
+
+      .left-row {
+        flex: 1;
+        // border: 1px solid rgb(202, 202, 202);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 6px;
+
+        .date_place_of_birth_container {
+          h4 {
+            font-size: 1.1rem;
+            font-weight: 500;
+          }
+          p {
+            font-size: 1rem;
+            margin-top: 0.5rem;
+            color: rgb(71, 71, 71);
+          }
+        }
+
+        .skills_container {
+          margin-top: 2rem;
+          h4 {
+            font-size: 1.1rem;
+            font-weight: 500;
+          }
+          p {
+            margin-top: 0.5rem;
+            color: rgb(71, 71, 71);
+          }
+        }
+
+        .hobbies_container {
+          margin-top: 2rem;
+          h4 {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+          }
+          span {
+            color: rgb(71, 71, 71);
+          }
+        }
+
+        .langugage_container {
+          margin-top: 2rem;
+          h4 {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+          }
+          p {
+            margin-top: 0.5rem;
+            color: rgb(71, 71, 71);
+          }
+        }
+      }
+
+      .right-row {
+        flex: 3;
+        padding: 0rem 2rem;
+        // border: 1px solid rgb(202, 202, 202);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 6px;
+
+        .profile-info-section {
+          h4 {
+            font-size: 1.5rem;
+            font-weight: 500;
+          }
+          p {
+            font-size: 1rem;
+            letter-spacing: 0.5px;
+            line-height: 23px;
+            margin-top: 0.5rem;
+            color: rgb(71, 71, 71);
+          }
+        }
+
+        .employment-history-section {
+          margin-top: 2rem;
+          h4 {
+            font-size: 1.5rem;
+            font-weight: 500;
+          }
+          .employment-history {
+            margin-top: 1.5rem;
+            .history {
+              h4{
+                font-size: 1.1rem;
+              }
+              // border: 2px solid red;
+            }
+            .from_and_to_date {
+              margin-top: .4rem;
+              p{
+                opacity: .8;
+                color: rgb(71, 71, 71);
+              }
+              // border: 2px solid red;
+            }
+            .history_description {
+              margin-top: .4rem;
+              p{
+                 color: rgb(71, 71, 71);
+                 font-size: .95rem;
+              }
+              // border: 2px solid red;
+            }
+            .skills {
+              margin-top: .4rem;
+              p{
+                 color: rgb(71, 71, 71);
+                 font-size: .95rem;
+              }
+              // border: 2px solid red;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -97,7 +305,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -125,7 +333,7 @@
 
 .thirteen::before,
 .thirteen::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: -1;
 }
