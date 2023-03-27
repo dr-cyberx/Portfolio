@@ -42,7 +42,7 @@ const empHistory = [
   },
   {
     title: "Frontend developer, GrowthNatives.pvt.ltd, Chandigarh",
-    fromAndToData: "February 2021 - Present",
+    fromAndToData: "February 2022 - Present",
     skills: [...skillsArr],
   },
 ];
@@ -202,7 +202,20 @@ export default function Home() {
     </>
   );
 }
+// I'd like to Interview for the Frontend Developer position in Zscaler.
 
+// Name:                 Vishal Kumar
+// Designation:        React.js Developer
+// Experience:         2+ year
+// Skills:                   Next.js, Javascript, Git, Scss, TypeScript, Redux, Node. js
+// Education:            BCA ( Bachelor of Computer Application )
+
+// Resume :             https://portfolio-five-omega-98.vercel.app/
+// Contact Number:  7986342637
+// Email ID:               drcyberx@gmail.com
+
+// thanks,
+// Vishal Kumar
 {
   /* <Head>
 <title>Create Next App</title>
